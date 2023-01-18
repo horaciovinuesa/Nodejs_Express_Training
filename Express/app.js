@@ -19,7 +19,7 @@ function handleGET(req, res){
 
     if(path === '/'){
         res.statusCode = 200;
-        res.end('Welcome to my first server and API created with NodeJS');
+        res.end('Welcome to my first server and API created with NodeJS!');
     }else if(path === '/courses'){
         res.statusCode = 200;
         res.end(JSON.stringify(courses.infoCourses))
