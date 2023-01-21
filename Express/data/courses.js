@@ -35,6 +35,13 @@ let infoCourses = {
             views: 225,
             level: "advanced"
         },
+        {
+            id: 6,
+            title: 'Java lvl9',
+            language: 'java',
+            views: 663,
+            level: "advanced"
+        },
     ],
     'math': [
         {
@@ -46,10 +53,24 @@ let infoCourses = {
         },
         {
             id: 2,
-            title: 'Math lvl2',
+            title: 'Learn More Basic Math!',
+            language: 'school',
+            views: 116548,
+            level: "basic"
+        },
+        {
+            id: 3,
+            title: 'Learn Intermediate Math',
+            language: 'school',
+            views: 116548,
+            level: "intermediate"
+        },
+        {
+            id: 4,
+            title: 'Math lvl7',
             language: 'school',
             views: 9875,
-            level: "intermediate"
+            level: "advanced"
         }
     ]
 }
